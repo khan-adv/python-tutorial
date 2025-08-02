@@ -1,0 +1,20 @@
+name = input("Enter your name")
+age = int(input("Enter your age"))
+dob = input("Enter your birthday")
+print("Hello!" , name, "Next year on" , dob, "you will be" , {age+1})
+    
+
+age = int(input("Enter your age"))
+
+if age >=18:
+    print("Congratulations, You are eligible to vote")
+else:
+    print("Sorry! You are not eligible to vote yet")
+
+
+num = int(input("Enter any number"))
+if num %2 ==0:
+    print("Your number is even")
+else:
+    print("Your number is odd")
+    
