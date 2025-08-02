@@ -19,4 +19,8 @@ while attempts <3:
         print(f"Wrong password Attempts left: {3-attempts}" )
 
     if attempts ==3:
-        print("❌Too many wrong attempts , Account Blocked!")
+        print("❌Too many wrong attempts")
+
+    if attempts ==4:
+        print("❌ Account Blocked!")
+        
