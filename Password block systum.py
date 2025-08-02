@@ -20,3 +20,8 @@ while attempts <3:
 
     if attempts ==3:
         print("❌Too many wrong attempts , Acc Blocked!")
+
+    if attempts ==4:
+        print("❌ Account Blocked!")
+        
+
