@@ -24,6 +24,6 @@ while attempts <6:
     if attempts ==4:
         print(f"Your account will be blocked at {attempts +2}")
 
-    if attempts ==6:
+    if attempts >=6:
         print("❌ Account Blocked!")
         
